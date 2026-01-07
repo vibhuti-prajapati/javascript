@@ -1,4 +1,4 @@
-// async await
+// async 
 async function x() {
   // async functions return a  promise
   // even if you return a value it will be wrapped inside a promise

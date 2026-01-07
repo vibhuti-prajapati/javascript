@@ -5,15 +5,9 @@ const p = new Promise((resolve, reject) => {
   }, 10000);
 });
 
-// const q = new Promise((resolve, reject) => {
-//   setTimeout(() => {
-//     resolve("q resolved");
-//   }, 5000);
-// });
-
 async function getData() {
   const res = await p;
-  console.log("hello wolrd");
+  console.log("hellso wolrd");
   console.log(res);
 
   const res2 = await p;
