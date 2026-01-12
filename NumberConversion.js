@@ -26,10 +26,11 @@ console.log("-- on String--")
 console.log(Number("123")); 
 console.log(Number("123blue")); 
 console.log(Number("blue7892")); 
+console.log(Number("blue")); 
 console.log(Number("1.5")); 
 console.log(Number("0xA")); 
 console.log(Number("nfsnf"));  
-
+console.log(typeof Number("shoe"));
 console.log("-----------parseInt()----------")
 // better for numbers in string 
 // examines string closely and matches a pattern 
